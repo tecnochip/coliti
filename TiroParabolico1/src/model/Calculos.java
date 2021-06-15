@@ -3,7 +3,7 @@ package model;
 public class Calculos {
 	
 	double velocidad, angulo, gravedad, segundo, alcance, tiempo;	
-	String planeta; 
+	String planeta;
 	
 	Posicion dato;
 	
@@ -19,6 +19,7 @@ public class Calculos {
 		this.velocidad = velocidad;
 		this.angulo = angulo;
 		this.planeta = planeta;
+		this.planeta = planeta.toLowerCase();
 		this.segundo = segundo;
 	}	
 	
